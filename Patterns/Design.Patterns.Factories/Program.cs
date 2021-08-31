@@ -8,20 +8,20 @@ namespace Design.Patterns.Factories
         {
             Console.WriteLine("\n----- Aula01 -----");
             Aula01.Aula01.Executar();
-            
+
             Console.WriteLine("\n----- Aula02 -----");
             Aula02.Aula02.Executar();
-            
+
             Console.WriteLine("\n----- Aula03 -----");
             Aula03.Aula03.Executar();
-            
+
             Console.WriteLine("\n----- Aula04 -----");
             Aula04.Aula04.Executar();
-            
+
             Console.WriteLine("\n----- Aula05 -----");
             Aula05.Aula05.Executar();
         }
-        
+
         static void Main(string[] args)
         {
             ExecutarAulas();

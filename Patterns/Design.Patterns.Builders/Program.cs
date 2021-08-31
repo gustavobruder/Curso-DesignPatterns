@@ -12,21 +12,21 @@ namespace Design.Patterns.Builders
         {
             Console.WriteLine("\n----- Aula01 -----");
             SemBuilder.Executar();
-            
+
             Console.WriteLine("\n----- Aula02 -----");
             ComBuilder.Executar();
-            
+
             Console.WriteLine("\n----- Aula03 -----");
             FluentBuilder.Executar();
-            
+
             Console.WriteLine("\n----- Aula04 -----");
             BuilderGenerico.Executar();
-            
+
             // TODO - Adicionar Aula05: Functional Builder
-            
+
             // TODO - Adicionar Aula06: Faceted Builder
         }
-        
+
         static void Main(string[] args)
         {
             ExecutarAulas();
