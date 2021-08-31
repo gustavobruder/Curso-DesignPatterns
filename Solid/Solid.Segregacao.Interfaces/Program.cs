@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solid.Substituicao.Liskov
+namespace Solid.Segregacao.Interfaces
 {
     public class Program
     {
@@ -8,15 +8,15 @@ namespace Solid.Substituicao.Liskov
         {
             Console.WriteLine("\n----- Correto -----");
             Correto.Program.Executar();
-            
+
             Console.WriteLine("\n----- Errado -----");
             Errado.Program.Executar();
         }
-        
+
         static void Main(string[] args)
         {
             ExecutarPrincipio();
-            Console.WriteLine("\nTerceiro Princípio: Substituição de Liskov!");
+            Console.WriteLine("\nQuarto Princípio: Segregação de Interfaces!");
         }
     }
 }

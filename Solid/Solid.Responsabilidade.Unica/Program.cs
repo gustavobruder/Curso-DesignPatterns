@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solid.Aberto.Fechado
+namespace Solid.Responsabilidade.Unica
 {
     public class Program
     {
@@ -8,15 +8,15 @@ namespace Solid.Aberto.Fechado
         {
             Console.WriteLine("\n----- Correto -----");
             Correto.Program.Executar();
-            
+
             Console.WriteLine("\n----- Errado -----");
             Errado.Program.Executar();
         }
-        
+
         static void Main(string[] args)
         {
             ExecutarPrincipio();
-            Console.WriteLine("\nSegundo Princípio: Aberto-Fechado!");
-        } 
+            Console.WriteLine("\nPrimeiro Princípio: Responsabilidade Única!");
+        }
     }
 }

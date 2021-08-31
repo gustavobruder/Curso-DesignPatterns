@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solid.Inversao.Dependencia
+namespace Solid.Aberto.Fechado
 {
     public class Program
     {
@@ -8,15 +8,15 @@ namespace Solid.Inversao.Dependencia
         {
             Console.WriteLine("\n----- Correto -----");
             Correto.Program.Executar();
-            
+
             Console.WriteLine("\n----- Errado -----");
             Errado.Program.Executar();
         }
-        
+
         static void Main(string[] args)
         {
             ExecutarPrincipio();
-            Console.WriteLine("\nQuinto Princípio: Inversão de Dependência!");
+            Console.WriteLine("\nSegundo Princípio: Aberto-Fechado!");
         } 
     }
 }
