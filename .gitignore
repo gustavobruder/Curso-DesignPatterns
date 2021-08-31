@@ -14,6 +14,9 @@
 *.userosscache
 *.sln.docstates
 
+# JetBrains Rider
+.idea/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
