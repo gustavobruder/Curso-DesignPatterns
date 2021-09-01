@@ -27,6 +27,10 @@ ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8105EE60-5DAA-4EE5-BADC-AF90DF0FD3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Tests", "Tests\Design.Patterns.Tests\Design.Patterns.Tests.csproj", "{031FE238-2014-45F5-8629-345D298059D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,7 @@ Global
 		{C2FAC9C0-606A-47C9-AC91-D150380B8354} = {FE10EE70-8965-4289-B15A-E16BB75AAF20}
 		{8CC5D407-102B-4B4B-88F4-CF5DC1D3E2E1} = {FE10EE70-8965-4289-B15A-E16BB75AAF20}
 		{8FDEDE1D-EE90-40D3-AF3A-43B7E004FB77} = {FE10EE70-8965-4289-B15A-E16BB75AAF20}
+		{031FE238-2014-45F5-8629-345D298059D8} = {8105EE60-5DAA-4EE5-BADC-AF90DF0FD3A9}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{613EA2B0-66C2-4478-9D20-DBEEB7323BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -80,5 +85,9 @@ Global
 		{8FDEDE1D-EE90-40D3-AF3A-43B7E004FB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FDEDE1D-EE90-40D3-AF3A-43B7E004FB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FDEDE1D-EE90-40D3-AF3A-43B7E004FB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031FE238-2014-45F5-8629-345D298059D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031FE238-2014-45F5-8629-345D298059D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031FE238-2014-45F5-8629-345D298059D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031FE238-2014-45F5-8629-345D298059D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -7,15 +7,19 @@ namespace Design.Patterns.Singletons
         static void ExecutarAulas()
         {
             Console.WriteLine("\n----- Aula01 -----");
-            // Aula01.Aula01.Executar();
+            Aula01.Aula01.Executar();
 
             Console.WriteLine("\n----- Aula02 -----");
-            // Aula02.Aula02.Executar();
+            Aula02.Aula02.Executar();
 
             Console.WriteLine("\n----- Aula03 -----");
-            // Aula03.Aula03.Executar();
+            Aula03.Aula03.Executar();
 
-            // TODO - Adicionar aulas sobre Singletons
+            Console.WriteLine("\n----- Aula04 -----");
+            Aula04.Aula04.Executar();
+
+            Console.WriteLine("\n----- Aula05 -----");
+            Aula05.Aula05.Executar();
         }
 
         static void Main(string[] args)

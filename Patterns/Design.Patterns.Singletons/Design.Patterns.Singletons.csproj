@@ -5,4 +5,14 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Aula01\capitais.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Common\capitais.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
